@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@media screen and (min-width: 1280px)
+{
+	body
+		{
+		font-family: 'Roboto';
+		background-color: #FCC;
+		background-image: none;
+		}	
+	#logo
+		{
+		display: block;
+		width:100%;
+		margin-left: auto;
+		margin-right: auto;
+		}
+	.flexParent
+		{
+		background-color: #AEC6CF;
+		background-image: none;
+		display: flex;
+		flex-wrap: wrap;
+		}
+	.img
+		{
+		flex-basis: 30%;
+		float: right;
+		width: 600px;
+		height: 300px;
+		
+		}
+
+	#firstParagraphText
+		{
+		flex-basis: 30%;
+		flex-grow: 1;
+		flex-shrink: 1;
+		float: left;
+		width: 1000px;
+		}
+	#secondParagraph
+		{
+		background-color: #50C878;
+		flex-basis: 100%;
+		flex-grow: 1;
+		flex-shrink: 0;
+		}
+	#mobileVideo
+		{
+		display: none;
+		}
+	#pcVideo
+		{
+		background-color: #AEC6CF;
+		background-image: none;
+		}
+}
+@media screen and (min-width: 501px) and (max-width: 1279px)
+{
+	body
+		{
+		font-family: 'Roboto';
+		background-color: #AEC6CF;
+		background-image: none;
+		}
+	#logo
+		{
+		display: block;
+		width:100%;
+		margin-left: auto;
+		margin-right: auto;
+		}
+	#mobileVideo
+		{
+		display: none;
+		}
+}	
+@media screen and (max-width: 500px) 
+{
+	body
+		{
+		font-family: 'Roboto';
+		background-color: #77DD77;
+		background-image: none;
+		}
+	#logo
+		{
+		display: none;
+		}
+		
+	#pcVideo
+		{
+		display: none;
+		}
+		
+}
